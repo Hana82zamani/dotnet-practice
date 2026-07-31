@@ -9,17 +9,17 @@ public class DiscountLibUnitTests
     {
 
     // Arrange
-    DiscountCalculator calc = new();
+    DiscountCalculator Calc = new();
     double price = 100;
     double discountPercent = 20;
-    double expected=80;
+    double expectd=80;
 
         // Act
     double actual = Calc.CalculateDiscount(price,discountPercent);
 
 
         // Assert
-    Assert.Equal(expected,actual);
+    Assert.Equal(expectd,actual);
     
     }
 }
