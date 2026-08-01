@@ -39,7 +39,7 @@ Assert.Equal(expected,actual);
     }
 
 }
-/// dotnet new classlib -o taxlib = ساختن فایل اصلی پروژه تست 
-/// dotnet new xunit -o TaxLibUnitTest = ساختن فایل تست (همین فایل )
+/// dotnet new classlib -n taxlib = ساختن فایل اصلی پروژه تست 
+/// dotnet new xunit -n TaxLibUnitTest = ساختن فایل تست (همین فایل )
 /// dotnet add TaxLibUnitTest reference = بهم وصل کردن دو فایل 
 /// dotnet test = اجرای تست
